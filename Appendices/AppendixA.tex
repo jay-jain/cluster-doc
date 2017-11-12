@@ -1,25 +1,85 @@
 % Appendix A
 
-\chapter{Frequently Asked Questions} % Main appendix title
+\chapter{Code Examples} % Main appendix title
 
 \label{AppendixA} % For referencing this appendix elsewhere, use \ref{AppendixA}
 
-\section{How do I change the colors of links?}
+\section{MPI Operations}
 
 The color of links can be changed to your liking using:
+%
+%{\small\verb!\hypersetup{urlcolor=red}!}, or
+%
+%{\small\verb!\hypersetup{citecolor=green}!}, or
+%
+%{\small\verb!\hypersetup{allcolor=blue}!}.
+%
+%\noindent If you want to completely hide the links, you can use:
+%
+%{\small\verb!\hypersetup{allcolors=.}!}, or even better: 
+%
+%{\small\verb!\hypersetup{hidelinks}!}.
+%
+%\noindent If you want to have obvious links in the PDF but not the printed text, use:
+%
+%{\small\verb!\hypersetup{colorlinks=false}!}.
 
-{\small\verb!\hypersetup{urlcolor=red}!}, or
+\subsection {Broadcast Example}
+\begin{verbatim}
 
-{\small\verb!\hypersetup{citecolor=green}!}, or
+from mpi4py import MPI
+comm = MPI.COMM_WORLD
+rank = comm.Get_rank()
 
-{\small\verb!\hypersetup{allcolor=blue}!}.
+if rank == 0:
+	data = {'key1' : [7, 2.72, 2+3j],'key2' : ( 'abc', 'xyz')}
+	print 'Broadcasting...',data
+else:
+	data = None
+	
+data = comm.bcast(data, root=0)
+print 'Broadcasting...',data
 
-\noindent If you want to completely hide the links, you can use:
+\end{verbatim}
 
-{\small\verb!\hypersetup{allcolors=.}!}, or even better: 
+Output:
 
-{\small\verb!\hypersetup{hidelinks}!}.
+\begin{verbatim}
 
-\noindent If you want to have obvious links in the PDF but not the printed text, use:
+\end{verbatim}
 
-{\small\verb!\hypersetup{colorlinks=false}!}.
+\subsection {Scatter Example}
+\begin{verbatim}
+
+
+\end{verbatim}
+
+Output:
+
+\begin{verbatim}
+
+\end{verbatim}
+
+\subsection {Gather Example}
+\begin{verbatim}
+
+
+\end{verbatim}
+
+Output:
+
+\begin{verbatim}
+
+\end{verbatim}
+
+\subsection {Reduction Example}
+\begin{verbatim}
+
+
+\end{verbatim}
+
+Output:
+
+\begin{verbatim}
+
+\end{verbatim}
