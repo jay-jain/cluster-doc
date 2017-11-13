@@ -20,6 +20,10 @@
 	
 	We decided to utilize a set of Raspberry Pi computers as a small-scale example of a cluster computing platform. Initially, we thought that utilizing commodity hardware such as servers for our cluster would be the way to go. Unfortunately, we do not have access to such hardware, but after further research, we concluded that the Raspberry Pi would be sufficient to demonstrate concepts in parallel and cluster computing. 
 	
+\section{Goals and Objectives}
+The ultimate goal of the course is to gain experience in a highly-relevant and in-demand software. Utilizing Python for the MPI, we will be able to gain a better understanding of the internal logic that goes into programming parallel operations. Although are project is limited to the Raspberry Pi, the mpi4py interface can be scaled to supercomputers and larger data warehouses using the same programming paradigm. More specifically, utilizing the Docker engine will give us a better understanding of the interaction between hardware and software in terms of virtualization and cluster computing. For instance, Docker can be utilized to organize and execute instances of Hadoop which will force us to consider the trade-offs when allocating resources to solve big-data problems.  Throughout the process of implementation, we aim to keep clear and concise documentation that can make the results of our project reproducible. In addition, we would like to analyze the efficiency of Docker as a tool that can be used to increase efficiency in data-processing and web-application management for businesses and organizations. 
+
+	
 
 %----------------------------------------------------------------------------------------
 
@@ -46,7 +50,7 @@
 	MPI is a standardized and portable parallel computing library usually used on supercomputers. The standards for MPI were first developed as parallel programs were being written in C, C++, and FORTRAN.Today, many other languages such as Python, R, and Java use wrapper classes in order to implement message passing interfaces written in C++ and FORTRAN.
 
 \subsection{mpi4py}
-	mpi4py is a message passing interface library for the Python programming language. We decided to use the Python programming language as it offers the implementation of high-level data structures with a dynamic typing and binding paradigm. Additionally, mpi4py has become one of the most utilized parallel computing libraries, thus there exists much online documentation and assistance. For instance, the devleopment of Python libraries such as NumPy make it easy to implement sometimes complex data structures such as arrays and dataframes in a user-friendly manner. Figure 1.1 shows some of the most basic parallel operations that mpi4py supports. The broadcast operation sends out the same operation to all slave nodes. The scatter operation sends out different operations to the worker nodes. The gather operation takes the output from the operation and sends it back to the master node. The reduction operation takes the output from the slave nodes and performs some type of operation. Please see code examples in Appendix A for a better understanding of MPI operations.
+	mpi4py is a message passing interface library for the Python programming language. We decided to use the Python programming language as it offers the implementation of high-level data structures with a dynamic typing and binding paradigm. Additionally, mpi4py has become one of the most utilized parallel computing libraries, thus there exists much online documentation and assistance. For instance, the devleopment of Python libraries such as NumPy make it easy to implement sometimes complex data structures such as arrays and dataframes in a user-friendly manner. Figure \ref{fig:MPI Operations} shows some of the most basic parallel operations that mpi4py supports. The broadcast operation (\ref{appendix:broadcast}) sends out the same operation to all slave nodes. The scatter operation (\ref{appendix:scatter}) sends out different operations to the worker nodes. The gather operation (\ref{appendix:gather}) stakes the output from the operation and sends it back to the master node. The reduction operation (\ref{appendix:reduction}) takes the output from the slave nodes and performs some type of operation. Please see code examples in Appendix A for a better understanding of MPI operations.
 	
 	
 \begin{figure}
@@ -63,7 +67,7 @@
 \section{Docker}
 
 Docker is an abstract, containerization system utilized for the automation and deployment of GNU/Linux operating systems.  Docker allows many single-images (known as containers) to run within one instance of Linux. This reduces the overhead of having to start and maintain many virtual machines.
-    In the context of Docker, an image is a lightweight, executable package that has everything that is needed to run a piece of software, including code, libraries, environment variables, and configuration files. A container is the actual instance of an image when the image is executed on the operating system. The container runs independent of the host environment and can only access host files and networks if specified to do so. It is also important to note that containers run on the host machine’s kernel because the host kernel will produce better performance metrics than a virtual machine would. Figure 1.2 illustrates the aforementioned concepts.
+    In the context of Docker, an image is a lightweight, executable package that has everything that is needed to run a piece of software, including code, libraries, environment variables, and configuration files. A container is the actual instance of an image when the image is executed on the operating system. The container runs independent of the host environment and can only access host files and networks if specified to do so. It is also important to note that containers run on the host machine’s kernel because the host kernel will produce better performance metrics than a virtual machine would. Figure \ref{fig:Docker Architecture} illustrates the aforementioned concepts.
 
 \begin{figure}
 \centering
@@ -72,5 +76,7 @@ Docker is an abstract, containerization system utilized for the automation and d
 \caption[Docker Architecture]{Illustration of Docker architecture.}
 \label{fig:Docker Architecture}
 \end{figure}
+
+	Although Docker saves resources on installing and maintaining virtual machines, Docker has an even more attractive advantage for firms involved in database management, big data processing, and the organization of commodity hardware. Docker allows users to pull images of applications and operating systems directly from a centralized repository instead of having to reinstall software or applications on individual computers. Not only does it save times, it allows companies to scale up computing power and utilize computing resources to a fuller extent without having to install and configure environment variables, configuration files, or libraries each time. Docker also allows system administrators to automate processes regarding when to start and stop Linux containers and how to access networks. Additionally, Docker containers can communicate with each other thus allowing for a scalable cluster-implementation of containers.
 
 

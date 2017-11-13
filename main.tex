@@ -34,8 +34,9 @@ singlespacing, % Single line spacing, alternatives: onehalfspacing or doublespac
 %parskip, % Uncomment to add space between paragraphs
 %nohyperref, % Uncomment to not load the hyperref package
 headsepline, % Uncomment to get a line under the header
-%chapterinoneline, % Uncomment to place the chapter title next to the number on one line
+chapterinoneline, % Uncomment to place the chapter title next to the number on one line
 %consistentlayout, % Uncomment to change the layout of the declaration, abstract and acknowledgements pages to match the default layout
+oneside
 ]{MastersDoctoralThesis} % The class file specifying the document structure
 
 \usepackage[utf8]{inputenc} % Required for inputting international characters
@@ -48,6 +49,8 @@ headsepline, % Uncomment to get a line under the header
 \addbibresource{example.bib} % The filename of the bibliography
 
 \usepackage[autostyle=true]{csquotes} % Required to generate language-dependent quotes in the bibliography
+
+\usepackage[toc,page]{appendix}
 
 %----------------------------------------------------------------------------------------
 %	MARGIN SETTINGS
@@ -207,8 +210,16 @@ The authors would like to thank Dr. McKinney for giving us the opportunity to pa
 
 \begin{abbreviations}{ll} % Include a list of abbreviations (a table of two columns)
 
+\textbf{ARM} & \textbf{A}dvanced \textbf{R}ISC \textbf{M}achine\\
+\textbf{ALU} & \textbf{Advanced} \textbf{Logic} \textbf{Unit}\\
+\textbf{CCO} & \textbf{C}ollective \textbf{C}ommunication \textbf{O}peration\\
+\textbf{DPM} & \textbf{D}ynamic \textbf{P}rocess \textbf{M}anagement\\
 \textbf{MPI} & \textbf{M}essage \textbf{P}assing \textbf{I}nterface\\
+\textbf{RMA} & \textbf{R}emote \textbf{M}emory \textbf{A}ccess\\
+\textbf{RISC} & \textbf{R}educed \textbf{I}nstruction \textbf{S}et \textbf{C}omputer\\
 \textbf{RPi} & \textbf{R}aspberry \textbf{Pi}\\
+\textbf{SoC} & \textbf{S}ystem \textbf{o}n a \textbf{C}hip
+
 
 \end{abbreviations}
 
@@ -259,7 +270,7 @@ The authors would like to thank Dr. McKinney for giving us the opportunity to pa
 % Uncomment the lines as you write the chapters
 
 \include{Chapters/Chapter1}
-%\include{Chapters/Chapter2} 
+\include{Chapters/Chapter2} 
 %\include{Chapters/Chapter3}
 %\include{Chapters/Chapter4} 
 %\include{Chapters/Chapter5} 
