@@ -43,11 +43,10 @@ print 'Broadcasting...',data
 
 \end{verbatim}
 
-Output:
-
-\begin{verbatim}
-
-\end{verbatim}
+\bf{Output:}
+\begin{center}
+\includegraphics[scale=0.7]{Figures/broadcast-output}
+\end{center}
 
 \subsection {Scatter Example}
 \label{appendix:scatter}
@@ -67,7 +66,10 @@ assert data == (rank+1)**2
 
 \end{verbatim}
 
-Output:
+\bf{Output:}
+\begin{center}
+\includegraphics[scale=0.7]{Figures/scatter-output}
+\end{center}
 
 \begin{verbatim}
 
@@ -98,7 +100,10 @@ else:
 
 \end{verbatim}
 
-Output:
+\bf{Output:}
+\begin{center}
+\includegraphics[scale=0.7]{Figures/gather-output}
+\end{center}
 
 \begin{verbatim}
 
@@ -118,11 +123,12 @@ PI = numpy.array(0.0, 'd')
 comm.Reduce(None, [PI, MPI.DOUBLE],op=MPI.SUM, root=MPI.ROOT)
 print (PI)
 comm.Disconnect()
-
-
 \end{verbatim}
 
-Output:
+\bf{Output:}
+\begin{center}
+\includegraphics[scale=0.7]{Figures/reduce-output}
+\end{center}
 
 \begin{verbatim}
 

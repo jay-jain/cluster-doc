@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.5)  13 NOV 2017 08:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.5)  22 NOV 2017 13:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1715,7 +1715,7 @@ Overfull \hbox (4.63075pt too wide) in paragraph at lines 53--54
 p-ing and bind-ing paradigm.
  []
 
-[2] <Figures/mpi-diagram.png, id=177, 413.545pt x 292.09125pt>
+[2] <Figures/mpi-diagram.png, id=182, 413.545pt x 292.09125pt>
 File: Figures/mpi-diagram.png Graphic file (type png)
 
 <use Figures/mpi-diagram.png>
@@ -1726,7 +1726,7 @@ Overfull \hbox (9.5149pt too wide) in paragraph at lines 58--60
  [][] 
  []
 
-<Figures/table-syntax.png, id=178, 946.53625pt x 157.58875pt>
+<Figures/table-syntax.png, id=183, 946.53625pt x 157.58875pt>
 File: Figures/table-syntax.png Graphic file (type png)
 
 <use Figures/table-syntax.png>
@@ -1738,7 +1738,7 @@ Overfull \hbox (69.23788pt too wide) in paragraph at lines 66--68
  []
 
 [3 <./Figures/mpi-diagram.png> <./Figures/table-syntax.png>]
-<Figures/docker-diagram.png, id=186, 493.845pt x 386.44376pt>
+<Figures/docker-diagram.png, id=191, 493.845pt x 386.44376pt>
 File: Figures/docker-diagram.png Graphic file (type png)
 
 <use Figures/docker-diagram.png>
@@ -1766,7 +1766,7 @@ Overfull \hbox (1.57518pt too wide) in paragraph at lines 20--21
  MPI pro-gram-ming paradigms. 
  []
 
-<Figures/monte-carlo.png, id=197, 608.2725pt x 615.29875pt>
+<Figures/monte-carlo.png, id=202, 608.2725pt x 615.29875pt>
 File: Figures/monte-carlo.png Graphic file (type png)
 
 <use Figures/monte-carlo.png>
@@ -1778,23 +1778,101 @@ Package pdftex.def Info: Figures/monte-carlo.png used on input line 24.
 
 
 
-] <Figures/multi-stage.png, id=206, 464.73625pt x 343.2825pt>
+] <Figures/multi-stage.png, id=211, 464.73625pt x 343.2825pt>
 File: Figures/multi-stage.png Graphic file (type png)
 
 <use Figures/multi-stage.png>
-Package pdftex.def Info: Figures/multi-stage.png used on input line 42.
+Package pdftex.def Info: Figures/multi-stage.png used on input line 44.
 (pdftex.def)             Requested size: 325.31316pt x 240.2961pt.
-) [7 <./Figures/monte-carlo.png>] [8 <./Figures/multi-stage.png>]
+
+Overfull \hbox (18.4327pt too wide) in paragraph at lines 53--54
+[]\T1/ppl/m/n/10.95 Remote Mem-ory Ac-cess (RMA) sup-ple-ments the tra-di-tiona
+l two-sided, send/receive
+ []
+
+[7 <./Figures/monte-carlo.png>]
+<Figures/walltime.png, id=220, 819.06pt x 151.56625pt>
+File: Figures/walltime.png Graphic file (type png)
+
+<use Figures/walltime.png>
+Package pdftex.def Info: Figures/walltime.png used on input line 62.
+(pdftex.def)             Requested size: 327.6182pt x 60.62541pt.
+
+Overfull \hbox (6.36678pt too wide) in paragraph at lines 68--69
+[]\T1/ppl/m/n/10.95 From the re-sults, we can see that the dy-namic pro-cess ma
+n-aga-ment (DPM) method
+ []
+
+
+Overfull \hbox (0.45831pt too wide) in paragraph at lines 68--69
+\T1/ppl/m/n/10.95 had the high-est ef-fi-ciency which may be at-tributed to its
+ ex-tremely ef-fi-cienct schedul-
+ []
+
+[8 <./Figures/multi-stage.png>]
+<Figures/error.png, id=226, 502.87875pt x 91.34125pt>
+File: Figures/error.png Graphic file (type png)
+ <use Figures/error.png>
+Package pdftex.def Info: Figures/error.png used on input line 73.
+(pdftex.def)             Requested size: 201.14793pt x 36.53584pt.
+)
+[9 <./Figures/walltime.png> <./Figures/error.png>]
 \openout2 = `Appendices/AppendixA.aux'.
 
  (./Appendices/AppendixA.tex
 Appendix A.
+<Figures/broadcast-output.png, id=232, 716.6775pt x 51.19125pt>
+File: Figures/broadcast-output.png Graphic file (type png)
+
+<use Figures/broadcast-output.png>
+Package pdftex.def Info: Figures/broadcast-output.png used on input line 48.
+(pdftex.def)             Requested size: 501.67084pt x 35.83362pt.
+
+Overfull \hbox (97.64175pt too wide) in paragraph at lines 48--49
+ [] 
+ []
+
+<Figures/scatter-output.png, id=233, 721.69624pt x 54.2025pt>
+File: Figures/scatter-output.png Graphic file (type png)
+
+<use Figures/scatter-output.png>
+Package pdftex.def Info: Figures/scatter-output.png used on input line 71.
+(pdftex.def)             Requested size: 505.18393pt x 37.94148pt.
+
+Overfull \hbox (101.15485pt too wide) in paragraph at lines 71--72
+ [] 
+ []
+
 1: section
-[9
+[10
 
 
 
-]) [10]
+ <./Figures/broadcast-output.png>]
+<Figures/gather-output.png, id=238, 725.71124pt x 126.4725pt>
+File: Figures/gather-output.png Graphic file (type png)
+
+<use Figures/gather-output.png>
+Package pdftex.def Info: Figures/gather-output.png used on input line 105.
+(pdftex.def)             Requested size: 507.99442pt x 88.53014pt.
+
+Overfull \hbox (103.96533pt too wide) in paragraph at lines 105--106
+ [] 
+ []
+
+[11 <./Figures/scatter-output.png> <./Figures/gather-output.png>]
+<Figures/reduce-output.png, id=243, 724.7075pt x 103.38625pt>
+File: Figures/reduce-output.png Graphic file (type png)
+
+<use Figures/reduce-output.png>
+Package pdftex.def Info: Figures/reduce-output.png used on input line 130.
+(pdftex.def)             Requested size: 507.2918pt x 72.36987pt.
+
+Overfull \hbox (103.26271pt too wide) in paragraph at lines 130--131
+ [] 
+ []
+
+) [12 <./Figures/reduce-output.png>]
 
 LaTeX Warning: Empty bibliography on input line 295.
 
@@ -1805,20 +1883,20 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 299.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 299.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 299.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 45B9DD31970A6C4481B59568F75D9B3A;3207.
+(rerunfilecheck)             Checksum: E58C56663DEF2E068313DA8830979987;3297.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  )
 (\end occurred when \iftrue on line 93 was incomplete) 
 Here is how much of TeX's memory you used:
- 30640 strings out of 494910
- 616497 string characters out of 6179837
+ 30678 strings out of 494910
+ 617362 string characters out of 6179837
  717681 words of memory out of 5000000
- 33569 multiletter control sequences out of 15000+600000
+ 33596 multiletter control sequences out of 15000+600000
  52061 words of font info for 94 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 55i,19n,77p,10377b,1733s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 57i,21n,77p,10377b,1778s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf
 -dist/fonts/enc/dvips/base/8r.enc} </home/jjain/.texmf-var/fonts/pk/ljfour/jkna
 ppen/ec/ectt1095.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/mathpa
@@ -1826,10 +1904,10 @@ zo/fplmri.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (16 pages, 371091 bytes).
+Output written on main.pdf (18 pages, 459005 bytes).
 PDF statistics:
- 327 PDF objects out of 1000 (max. 8388607)
- 230 compressed objects within 3 object streams
- 48 named destinations out of 1000 (max. 500000)
- 210 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 350 PDF objects out of 1000 (max. 8388607)
+ 245 compressed objects within 3 object streams
+ 53 named destinations out of 1000 (max. 500000)
+ 248 words of extra memory for PDF output out of 10000 (max. 10000000)
 
