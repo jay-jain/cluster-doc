@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.5)  22 NOV 2017 13:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.28)  25 NOV 2017 12:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
 LaTeX2e <2016/02/01>
-Babel <3.9q> and hyphenation patterns for 5 language(s) loaded.
+Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
 (./MastersDoctoralThesis.cls
 Document Class: MastersDoctoralThesis 2016/11/22 v1.5 LaTeXTemplates.com
 (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
@@ -1715,7 +1715,7 @@ Overfull \hbox (4.63075pt too wide) in paragraph at lines 53--54
 p-ing and bind-ing paradigm.
  []
 
-[2] <Figures/mpi-diagram.png, id=182, 413.545pt x 292.09125pt>
+[2] <Figures/mpi-diagram.png, id=183, 413.545pt x 292.09125pt>
 File: Figures/mpi-diagram.png Graphic file (type png)
 
 <use Figures/mpi-diagram.png>
@@ -1726,7 +1726,7 @@ Overfull \hbox (9.5149pt too wide) in paragraph at lines 58--60
  [][] 
  []
 
-<Figures/table-syntax.png, id=183, 946.53625pt x 157.58875pt>
+<Figures/table-syntax.png, id=184, 946.53625pt x 157.58875pt>
 File: Figures/table-syntax.png Graphic file (type png)
 
 <use Figures/table-syntax.png>
@@ -1738,7 +1738,7 @@ Overfull \hbox (69.23788pt too wide) in paragraph at lines 66--68
  []
 
 [3 <./Figures/mpi-diagram.png> <./Figures/table-syntax.png>]
-<Figures/docker-diagram.png, id=191, 493.845pt x 386.44376pt>
+<Figures/docker-diagram.png, id=192, 493.845pt x 386.44376pt>
 File: Figures/docker-diagram.png Graphic file (type png)
 
 <use Figures/docker-diagram.png>
@@ -1766,7 +1766,7 @@ Overfull \hbox (1.57518pt too wide) in paragraph at lines 20--21
  MPI pro-gram-ming paradigms. 
  []
 
-<Figures/monte-carlo.png, id=202, 608.2725pt x 615.29875pt>
+<Figures/monte-carlo.png, id=203, 608.2725pt x 615.29875pt>
 File: Figures/monte-carlo.png Graphic file (type png)
 
 <use Figures/monte-carlo.png>
@@ -1817,11 +1817,22 @@ Package pdftex.def Info: Figures/error.png used on input line 73.
 (pdftex.def)             Requested size: 201.14793pt x 36.53584pt.
 )
 [9 <./Figures/walltime.png> <./Figures/error.png>]
+\openout2 = `Chapters/Chapter3.aux'.
+
+ (./Chapters/Chapter3.tex
+Chapter 3.
+)
+1: section
+[10
+
+
+
+]
 \openout2 = `Appendices/AppendixA.aux'.
 
  (./Appendices/AppendixA.tex
 Appendix A.
-<Figures/broadcast-output.png, id=232, 716.6775pt x 51.19125pt>
+<Figures/broadcast-output.png, id=237, 716.6775pt x 51.19125pt>
 File: Figures/broadcast-output.png Graphic file (type png)
 
 <use Figures/broadcast-output.png>
@@ -1832,7 +1843,7 @@ Overfull \hbox (97.64175pt too wide) in paragraph at lines 48--49
  [] 
  []
 
-<Figures/scatter-output.png, id=233, 721.69624pt x 54.2025pt>
+<Figures/scatter-output.png, id=238, 721.69624pt x 54.2025pt>
 File: Figures/scatter-output.png Graphic file (type png)
 
 <use Figures/scatter-output.png>
@@ -1844,12 +1855,12 @@ Overfull \hbox (101.15485pt too wide) in paragraph at lines 71--72
  []
 
 1: section
-[10
+[11
 
 
 
  <./Figures/broadcast-output.png>]
-<Figures/gather-output.png, id=238, 725.71124pt x 126.4725pt>
+<Figures/gather-output.png, id=245, 725.71124pt x 126.4725pt>
 File: Figures/gather-output.png Graphic file (type png)
 
 <use Figures/gather-output.png>
@@ -1860,8 +1871,8 @@ Overfull \hbox (103.96533pt too wide) in paragraph at lines 105--106
  [] 
  []
 
-[11 <./Figures/scatter-output.png> <./Figures/gather-output.png>]
-<Figures/reduce-output.png, id=243, 724.7075pt x 103.38625pt>
+[12 <./Figures/scatter-output.png> <./Figures/gather-output.png>]
+<Figures/reduce-output.png, id=252, 724.7075pt x 103.38625pt>
 File: Figures/reduce-output.png Graphic file (type png)
 
 <use Figures/reduce-output.png>
@@ -1872,42 +1883,62 @@ Overfull \hbox (103.26271pt too wide) in paragraph at lines 130--131
  [] 
  []
 
-) [12 <./Figures/reduce-output.png>]
+) [13 <./Figures/reduce-output.png>]
 
 LaTeX Warning: Empty bibliography on input line 295.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 299.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 299.
 (./main.aux (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux)
-(./Appendices/AppendixA.aux))
+(./Chapters/Chapter3.aux) (./Appendices/AppendixA.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 299.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 299.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E58C56663DEF2E068313DA8830979987;3297.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: E58C56663DEF2E068313DA8830979987;3297
+(rerunfilecheck)             After:  9BC462FF12FF6817407857D9939A7254;3497.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  )
 (\end occurred when \iftrue on line 93 was incomplete) 
 Here is how much of TeX's memory you used:
- 30678 strings out of 494910
- 617362 string characters out of 6179837
- 717681 words of memory out of 5000000
- 33596 multiletter control sequences out of 15000+600000
+ 30693 strings out of 493029
+ 617617 string characters out of 6136234
+ 722368 words of memory out of 5000000
+ 33844 multiletter control sequences out of 15000+600000
  52061 words of font info for 94 fonts, out of 8000000 for 9000
- 36 hyphenation exceptions out of 8191
+ 1141 hyphenation exceptions out of 8191
  57i,21n,77p,10377b,1778s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf
--dist/fonts/enc/dvips/base/8r.enc} </home/jjain/.texmf-var/fonts/pk/ljfour/jkna
-ppen/ec/ectt1095.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/mathpa
-zo/fplmri.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (18 pages, 459005 bytes).
+pdfTeX warning (dest): na
+me{subsection.32} has been referenced but does not exist, replaced by a fixed o
+ne
+
+pdfTeX warning (dest): name{subsection.31} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{appendix.29} has been referenced but does not exist
+, replaced by a fixed one
+
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/fo
+nts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/typ
+e1/public/mathpazo/fplmri.pfb></usr/share/texmf/fonts/type1/public/cm-super/sft
+t1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on main.pdf (19 pages, 478374 bytes).
 PDF statistics:
- 350 PDF objects out of 1000 (max. 8388607)
- 245 compressed objects within 3 object streams
- 53 named destinations out of 1000 (max. 500000)
+ 297 PDF objects out of 1000 (max. 8388607)
+ 255 compressed objects within 3 object streams
+ 59 named destinations out of 1000 (max. 500000)
  248 words of extra memory for PDF output out of 10000 (max. 10000000)
 
